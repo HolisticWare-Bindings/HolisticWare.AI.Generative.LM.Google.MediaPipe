@@ -1,0 +1,15 @@
+<metadata>
+    <!--
+    Do not generate properties
+    Generated properties would have the same name as nested types
+    -->
+    <attr
+        path="/api/package/interface/method[contains(@name,'get') and count(parameter)=0]"
+        name="propertyName"
+        ></attr>
+    <attr
+        path="/api/package/class/method[contains(@name,'get') and count(parameter)=0]"
+        name="propertyName"
+        ></attr>
+
+</metadata>

@@ -1,0 +1,27 @@
+<metadata>
+    <attr
+        path="/api/package[@name='com.google.mediapipe.tasks.vision.core']"
+        name="managedName"
+        >
+        HolisticWare.Google.MediaPipe.Tasks.Vision.Core
+    </attr>
+    <attr
+        path="/api/package[@name='com.google.mediapipe.tasks.vision.facelandmarker']"
+        name="managedName"
+        >
+        HolisticWare.Google.MediaPipe.Tasks.Vision.FaceLandmarker
+    </attr>
+    <attr
+        path="/api/package[@name='com.google.mediapipe.tasks.vision.imagegenerator']"
+        name="managedName"
+        >
+        HolisticWare.Google.MediaPipe.Tasks.Vision.ImageGenerator
+    </attr>
+    <attr
+        path="/api/package[@name='com.google.mediapipe.tasks.vision.imagesegmenter']"
+        name="managedName"
+        >
+        HolisticWare.Google.MediaPipe.Tasks.Vision.ImageSegmenter
+    </attr>
+
+</metadata>

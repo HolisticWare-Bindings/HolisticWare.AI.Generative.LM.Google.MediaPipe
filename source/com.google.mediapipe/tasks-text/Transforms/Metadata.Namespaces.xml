@@ -1,0 +1,21 @@
+<metadata>
+    <attr
+        path="/api/package[@name='com.google.mediapipe.tasks.text.languagedetector']"
+        name="managedName"
+        >
+        HolisticWare.Google.MediaPipe.Tasks.Text.LanguageDetector
+    </attr>
+    <attr
+        path="/api/package[@name='com.google.mediapipe.tasks.text.textclassifier']"
+        name="managedName"
+        >
+        HolisticWare.Google.MediaPipe.Tasks.Text.TextClassifier
+    </attr>
+    <attr
+        path="/api/package[@name='com.google.mediapipe.tasks.text.textembedder']"
+        name="managedName"
+        >
+        HolisticWare.Google.MediaPipe.Tasks.Text.TextEmbedder
+    </attr>
+
+</metadata>

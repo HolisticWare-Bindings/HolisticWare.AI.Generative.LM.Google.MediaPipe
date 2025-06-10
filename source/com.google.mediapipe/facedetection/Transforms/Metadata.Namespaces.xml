@@ -1,0 +1,9 @@
+<metadata>
+    <attr
+        path="/api/package[@name='com.google.mediapipe.solutions.facedetection']"
+        name="managedName"
+        >
+        HolisticWare.Google.MediaPipe.Solutions.FaceDetection
+    </attr>
+    
+</metadata>

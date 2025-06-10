@@ -1,0 +1,15 @@
+<metadata>
+    <attr
+        path="/api/package[@name='com.google.mediapipe.tasks.genai.llminference']"
+        name="managedName"
+        >
+        HolisticWare.Google.MediaPipe.Tasks.GenAI.LlmInferences
+    </attr>
+    <attr
+        path="/api/package[@name='com.google.mediapipe.tasks.genai.llminference.jni.proto']"
+        name="managedName"
+        >
+        HolisticWare.Google.MediaPipe.Tasks.GenAI.LlmInference.JNI.Proto
+    </attr>
+
+</metadata>

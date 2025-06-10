@@ -1,0 +1,16 @@
+<metadata>
+    <!--
+    <attr
+        path=""
+        name="managedName"
+        >
+    </attr>
+    -->
+    <attr
+        path="/api/package[@name='com.google.mediapipe.solutions.facemesh']"
+        name="managedName"
+        >
+        HolisticWare.Google.MediaPipe.Solutions.FaceMesh
+    </attr>
+
+</metadata>

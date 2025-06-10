@@ -1,0 +1,40 @@
+<metadata>
+    <!--
+    Do not generate properties
+    Generated properties would have the same name as nested types
+    -->
+    <attr
+        path="/api/package/interface/method[contains(@name,'get') and count(parameter)=0]"
+        name="propertyName"
+        ></attr>
+    <attr
+        path="/api/package/class/method[contains(@name,'get') and count(parameter)=0]"
+        name="propertyName"
+        ></attr>
+
+    <attr
+        path="/api/package[@name='com.google.mediapipe.tasks.core']/class[@name='Delegate']"
+        name="managedName"
+        >
+        DelegateAbstraction
+    </attr>
+
+
+    <!--
+    <attr
+        path="/api/package[@name='com.google.mediapipe.calculator.proto']/class[@name='InferenceCalculatorProto.InferenceCalculatorOptions.Delegate']"
+        name="managedName"
+        >
+        InferenceCalculatorOptionsDelegateAbstraction
+    </attr>
+    -->
+    <remove-node
+        path="/api/package[@name='com.google.mediapipe.calculator.proto']/class[@name='InferenceCalculatorProto.InferenceCalculatorOptions.Delegate']"
+        />
+    <attr
+        path="/api/package[@name='com.google.mediapipe.calculator.proto']/class[@name='InferenceCalculatorProto.InferenceCalculatorOptions.Delegate.Builder']"        
+        name="managedName"
+        >
+        BuilderClass
+    </attr>
+</metadata>

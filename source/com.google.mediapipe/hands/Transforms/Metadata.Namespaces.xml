@@ -1,0 +1,9 @@
+<metadata>
+    <attr
+        path="/api/package[@name='com.google.mediapipe.solutions.hands']"
+        name="managedName"
+        >
+        HolisticWare.Google.MediaPipe.Solutions.Hands
+    </attr>
+
+</metadata>

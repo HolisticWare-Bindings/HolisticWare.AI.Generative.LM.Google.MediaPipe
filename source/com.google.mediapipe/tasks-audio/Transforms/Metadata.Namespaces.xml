@@ -1,0 +1,22 @@
+<metadata>
+
+    <attr
+        path="/api/package[@name='com.google.mediapipe.tasks.audio.audioclassifier']"
+        name="managedName"
+        >
+        HolisticWare.Google.MediaPipe.Tasks.Audio.AudioClassifier
+    </attr>
+    <attr
+        path="/api/package[@name='com.google.mediapipe.tasks.audio.audioembedder']"
+        name="managedName"
+        >
+        HolisticWare.Google.MediaPipe.Tasks.Audio.AudioEmbedder
+    </attr>
+    <attr
+        path="/api/package[@name='com.google.mediapipe.tasks.audio.core']"
+        name="managedName"
+        >
+        HolisticWare.Google.MediaPipe.Tasks.Audio.Core
+    </attr>
+
+</metadata>
