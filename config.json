@@ -1,0 +1,212 @@
+[
+	{
+		"mavenRepositoryType" : "Google",
+		"slnFile" : "generated/HolisticWare.sln",
+		"templates" : 
+		[
+			{
+				"templateFile": "source/Project.cshtml",
+				"outputFileRule" : "generated/{groupid}.{artifactid}/{groupid}.{artifactid}.csproj"
+			}
+		],
+		"artifacts" : 
+		[
+			{
+				"groupId" : "com.google.mediapipe",
+				"artifactId" : "facedetection",
+				"version" : "0.10.20",
+				"nugetVersion" : "0.10.20",
+				"nugetId" : "HolisticWare.Google.MediaPipe.FaceDetection"
+			},
+			{
+				"groupId" : "com.google.mediapipe",
+				"artifactId" : "facemesh",
+				"version" : "0.10.20",
+				"nugetVersion" : "0.10.20",
+				"nugetId" : "HolisticWare.Google.MediaPipe.FaceMesh"
+			},
+			{
+				"groupId" : "com.google.mediapipe",
+				"artifactId" : "hands",
+				"version" : "0.10.20",
+				"nugetVersion" : "0.10.20",
+				"nugetId" : "HolisticWare.Google.MediaPipe.Hands"
+			},
+			{
+				"groupId" : "com.google.mediapipe",
+				"artifactId" : "solution-core",
+				"version" : "0.10.20",
+				"nugetVersion" : "0.10.20",
+				"nugetId" : "HolisticWare.Google.MediaPipe.SolutionCore"
+			},
+			{
+				"groupId" : "com.google.mediapipe",
+				"artifactId" : "tasks-audio",
+				"version" : "0.10.21",
+				"nugetVersion" : "0.10.21",
+				"nugetId" : "HolisticWare.Google.MediaPipe.Tasks.Audio"
+			},
+			{
+				"groupId" : "com.google.mediapipe",
+				"artifactId" : "tasks-core",
+				"version" : "0.10.21",
+				"nugetVersion" : "0.10.21",
+				"nugetId" : "HolisticWare.Google.MediaPipe.Tasks.Core"
+			},
+			{
+				"groupId" : "com.google.mediapipe",
+				"artifactId" : "tasks-genai",
+				"version" : "0.10.24",
+				"nugetVersion" : "0.10.24",
+				"nugetId" : "HolisticWare.Google.MediaPipe.Tasks.GenAI"
+			},
+			{
+				"groupId" : "com.google.mediapipe",
+				"artifactId" : "tasks-text",
+				"version" : "0.10.21",
+				"nugetVersion" : "0.10.21",
+				"nugetId" : "HolisticWare.Google.MediaPipe.Tasks.Text"
+			},
+			{
+				"groupId" : "com.google.mediapipe",
+				"artifactId" : "tasks-vision",
+				"version" : "0.10.21",
+				"nugetVersion" : "0.10.21",
+				"nugetId" : "HolisticWare.Google.MediaPipe.Tasks.Vision"
+			},
+			{
+				"groupId" : "com.google.mediapipe",
+				"artifactId" : "tasks-vision-image-generator",
+				"version" : "0.10.21",
+				"nugetVersion" : "0.10.21",
+				"nugetId" : "HolisticWare.Google.MediaPipe.Tasks.Vision.ImageGenerator"
+			},
+			{
+				"groupId": "com.google.guava",
+				"artifactId": "guava",
+				"version": "33.4.0-android",
+				"nugetVersion": "33.4.8.2",
+				"nugetId": "Xamarin.Google.Guava",
+				"dependencyOnly": true
+			},
+			{
+				"groupId": "com.google.auto.value",
+				"artifactId": "auto-value",
+				"version": "1.11.0",
+				"nugetVersion": "1.11.0",
+				"nugetId": "HolisticWare.Google.AutoValue",
+				"dependencyOnly": true
+			},
+			{
+				"groupId": "com.google.auto.value",
+				"artifactId": "auto-value-annotations",
+				"version": "1.11.0",
+				"nugetVersion": "1.11.0.7",
+				"nugetId": "Xamarin.Google.AutoValue.Annotations",
+				"dependencyOnly": true
+			},
+			{
+				"groupId": "androidx.annotation",
+				"artifactId": "annotation",
+				"version": "1.9.1",
+				"nugetVersion": "1.9.1.4",
+				"nugetId": "Xamarin.AndroidX.Annotation",
+				"dependencyOnly": true
+			},
+			{
+				"groupId": "com.google.android.datatransport",
+				"artifactId": "transport-api",
+				"version": "4.0.0",
+				"nugetVersion": "4.0.0.2",
+				"nugetId": "Xamarin.Google.Android.DataTransport.TransportApi",
+				"dependencyOnly": true
+			},
+			{
+				"groupId": "com.google.android.datatransport",
+				"artifactId": "transport-backend-cct",
+				"version": "4.0.0",
+				"nugetVersion": "4.0.0.2",
+				"nugetId": "Xamarin.Google.Android.DataTransport.TransportBackendCct",
+				"dependencyOnly": true
+			},
+			{
+				"groupId": "com.google.android.datatransport",
+				"artifactId": "transport-runtime",
+				"version": "4.0.0",
+				"nugetVersion": "4.0.0.2",
+				"nugetId": "Xamarin.Google.Android.DataTransport.TransportRuntime",
+				"dependencyOnly": true
+			},
+			{
+				"groupId": "com.google.flogger",
+				"artifactId": "flogger",
+				"version": "0.8",
+				"nugetVersion": "0.8.0.12",
+				"nugetId": "Xamarin.Flogger",
+				"dependencyOnly": true
+			},
+			{
+				"groupId": "com.google.flogger",
+				"artifactId": "flogger-system-backend",
+				"version": "0.8",
+				"nugetVersion": "0.8.0.12",
+				"nugetId": "Xamarin.Flogger.SystemBackend",
+				"dependencyOnly": true
+			},
+			{
+				"groupId": "com.google.protobuf",
+				"artifactId": "protobuf-javalite",
+				"version": "4.29.3",
+				"nugetVersion": "4.29.3.1",
+				"nugetId": "Xamarin.Protobuf.JavaLite",
+				"dependencyOnly": true
+			},
+			{
+				"groupId": "androidx.camera",
+				"artifactId": "camera-camera2",
+				"version": "1.4.2",
+				"nugetVersion": "1.4.2.2",
+				"nugetId": "Xamarin.AndroidX.Camera.Camera2",
+				"dependencyOnly": true
+			},
+			{
+				"groupId": "androidx.camera",
+				"artifactId": "camera-core",
+				"version": "1.4.2",
+				"nugetVersion": "1.4.2.2",
+				"nugetId": "Xamarin.AndroidX.Camera.Core",
+				"dependencyOnly": true
+			},
+			{
+				"groupId": "androidx.camera",
+				"artifactId": "camera-lifecycle",
+ 				"version": "1.4.2",
+				"nugetVersion": "1.4.2.2",
+				"nugetId": "Xamarin.AndroidX.Camera.Lifecycle",
+				"dependencyOnly": true
+			}
+		],
+		"licenses": 
+		[
+			{
+				"name": "The Apache Software License, Version 2.0",
+				"file": "source/licenses/apache-2.0.txt",
+				"spdx": "Apache-2.0"
+			}
+		],
+		"templateSets": 
+		[
+			{
+				"name": "default",
+				"mavenRepositoryType": "Google",
+				"templates": 
+				[
+					{
+						"templateFile": "source/Project.cshtml",
+						"outputFileRule": "generated/{groupid}.{artifactid}/{groupid}.{artifactid}.csproj"
+					}
+				]
+			}
+		]
+	}
+]
